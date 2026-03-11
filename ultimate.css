@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+;
+}
+
+header{
+    color: rgb(7, 190, 68);
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+
+}
+
+main{
+    color:white;
+    background-color: brown;
+    height: 80vh; 
+    width: 100%; 
+    margin: 0px 0px;
+    text-align: center;
+    
+}
+main h1{
+    padding-top: 2rem;
+}
+
+footer{
+    color: black;
+    background-color: aquamarine;
+    height: 40vh;
+    width: 100%;
+    text-align:center ;
+    display: flex;
+    
+}
+
+header h1{
+    text-align: center;
+}
+
+ nav ul{
+ display: flex;
+ gap: 2rem;
+ list-style: none;
+ 
+}
+
+nav ul li a{
+ color: rgb(255, 40, 40);
+ list-style: none;
+ text-decoration: none;
+    
+}
+header button{
+    border: none;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: blue;
+    border-radius: 20px;
+    height: 10vh;
+    width: 10vw;
+    background-color:white;
+    text-decoration: none;
+    
+
+}
+.fbox{
+    height: 100%;
+    width:40% ;
+    background-color: antiquewhite;
+    color: black;
+    padding: 50px 80px;
+
+}
+
+.fbox2{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(204, 133, 41);
+    color: black;
+    padding: 10px 40px;
+}
+
+.fbox3{
+    height: 100%;
+    width: 20%;
+    background-color: antiquewhite;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+header h1{
+    height: 10vh;
+    width: 25vw;
+    border-style: dotted;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 30px;
+    text-decoration-line: overline;
+    
+}
+
+#logo{
+    height:50%;
+    width: 100%;
+    background-size: contain;
+
+}
+
+.box1{
+    height: 80vh;
+    width: 100vw;
+    background-image:url(./33d436bb-737c-46ac-bf2a-425f6ff784c9.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: o 40px 20px o;
+    margin-right: 20px;
+}
+
+
